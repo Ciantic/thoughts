@@ -10,7 +10,7 @@ function withInferredTaggedUnion(): ReturnType {
             height: 170 Cm,
             pets: Pets ["Jimmy", "Duffy"]
         }
-    } else {
+    } else if (oldEnough) {
         return User {
             age: 25 Years,
             height: 170 Cm
