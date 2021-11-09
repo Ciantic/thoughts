@@ -22,8 +22,8 @@ function withInferredTaggedUnion(): ReturnType {
 // Type of the above function could be inferred as:
 type ReturnType =
     | User {
-            age: Years,
-            height: Cm,
+            age: number Years,
+            height: number Cm,
             pets?: Pets string[]
         }
     | ValidationError { age: string }
