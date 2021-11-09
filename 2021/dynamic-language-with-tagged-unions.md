@@ -32,7 +32,7 @@ type ReturnType =
 
 ```
 
-In example above the user defined tags are: `UUID`, `User`, `ValidationError`, `Years` and `Cm`. They need not be predefined in dynamic language, but are attached on the values e.g. strings, objects, numbers or arrays. It's notable that these tags are _not_ constructors of anykind, they are just name tags used in pattern matching etc.
+In example above the user defined tags are: `UUID`, `Year`, `Cm`, `Pets`, `User` and `ValidationError`. They need not be predefined in dynamic language, but are attached on the values e.g. strings, objects, numbers or arrays. It's notable that these tags are _not_ constructors of anykind, they are just name tags used in pattern matching etc.
 
 Some rules are in order, e.g. with numbers or strings the tag is suffix like `5 Years` or `"123e4567-e89b-12d3-a456-426614174000" UUID` but with arrays or objects they are prefixes `User {}` or `Pets ["Jimmy", "Duffy"]`. But otherwise there is no need for rules, you could be silly and do `"John" Years` but it's type would be inferred as `string Years`.
 
