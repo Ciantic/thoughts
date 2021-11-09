@@ -13,6 +13,7 @@ function withInferredTaggedUnion(): ReturnType {
         }
     } else if (oldEnough) {
         return User {
+            id: undefined UUID,
             age: 25 Years,
             height: 170 Cm
         }
@@ -23,7 +24,7 @@ function withInferredTaggedUnion(): ReturnType {
 // Type of the above function could be inferred as:
 type ReturnType =
     | User {
-            id: string UUID,
+            id: string UUID | undefined UUID,
             age: number Years,
             height: number Cm,
             pets?: Pets string[]
