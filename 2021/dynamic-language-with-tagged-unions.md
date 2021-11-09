@@ -1,6 +1,6 @@
 # Dynamic language with first class tagged unions?
 
-I can imagine convinient syntax for tagged unions in TypeScript-like language, would be really useful, take this hypothethical example:
+I can imagine convinient syntax for tagged unions in TypeScript-like language which would be really useful, take this hypothethical example:
 
 ```typescript
 function withInferredTaggedUnion(): ReturnType {
