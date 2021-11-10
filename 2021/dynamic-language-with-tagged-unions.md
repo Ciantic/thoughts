@@ -38,3 +38,7 @@ In example above the user defined tags are: `UUID`, `Year`, `Cm`, `Pets`, `User`
 Some rules are in order, e.g. with numbers or strings the tag is suffix like `5 Years` or `"123e4567-e89b-12d3-a456-426614174000" UUID` but with arrays or objects they are prefixes `User {}` or `Pets ["Jimmy", "Duffy"]`. But otherwise there is no need for rules, you could be silly and do `"John" Years` but it's type would be inferred as `string Years`.
 
 First class support for tags would allow obvious way to define errors and edge cases in dynamic languages. Pattern matching, and thus handling and catching error cases, on the tags would be easy.
+
+## Notes
+
+There is gazillion issues about this in TypeScript issue tracker with "opaque" keyword. It's notable that TypeScript can't implement this performantly without a support in JavaScript. Hacks involve using tuples and strings etc. to get the pattern matching to work, but in my opinion tagging values needs a support in the language level to be viable and performant instead of purely type level.
