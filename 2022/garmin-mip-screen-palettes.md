@@ -82,7 +82,7 @@ I'm trying to develop my own watch face to Forerunner series watches which has 6
 
 I was a bit dumbfound by these palette choices, so I exported it to color table and painfully tried to use indexed mode in Photoshop. It's painful because after each operation one must flatten all layers and then choose palette to preview, it's cumbersome process to preview final image.
 
-I asked about this from Ivan Kuckir who is the developer of excellent [Photopea](https://www.photopea.com/) and he pointed out the color scheme is RGB 4x4x4 in other words 6 bits per channel RGB. It's not some weird concoction by Garmin overlords, but sensible choice.
+I asked about this from Ivan Kuckir who is the developer of excellent [Photopea](https://www.photopea.com/) and he pointed out the color scheme is RGB 4x4x4 in other words 6-bit RGB palette with 2 bits dedicated to each channel. It's not some weird concoction by Garmin overlords, but sensible choice.
 
 With that knowledge there is much easier way to preview this color scheme in Photopea, just use *Adjustment Layer* called *Posterize* with levels set to four. It doesn't have dithering but it's good enough for preview.
 
