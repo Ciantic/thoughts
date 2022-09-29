@@ -2,7 +2,7 @@
 
 I've long hold out on switching to Gutenberg, the block layout editor of WordPress. Mostly because it was rather half baked few years ago when I last tried. I'm now using it, and plan to use it, but it's still amazing how many things are still half-assed.
 
-Look no further than the most basic image block, it has [hilarious issue thread from 2018, and still open!](https://github.com/WordPress/gutenberg/issues/12168) It's full of screenshots of broken behavior. People don't know seem to grog even what the percentage buttons are supposed to mean, and consequently the image breaks out of it's container or image gets out of aspect ratio.
+Look no further than the most basic image block, it has [hilarious issue thread from 2018, and still open!](https://github.com/WordPress/gutenberg/issues/12168) It's full of screenshots of broken behavior. People don't seem to grog even what the percentage buttons are supposed to mean, and consequently the image breaks out of it's container or in another instance image gets out of aspect ratio.
 
 I also noticed that 100% toggle button is by default pressed, yet if I press it again the image changes size. What? That's not how toggle buttons supposed to work but what ever. Looks like whoever did the image block half-assed it by trying to add too many features which end up breaking it.
 
