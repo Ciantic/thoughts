@@ -8,4 +8,4 @@ Total programming uses types such as: Option, Maybe, NonEmpty, Result, Either. I
 
 What is then functional programming? I'm not expert enough to give you full definition, but I was going through Haskell courses in my university and the teacher didn't think Rust was particularily good functional language as it didn't emphasise on function composition like Haskell does. However Rust does have good total programming tools.
 
-It stuck me, and I mentally keep these separate. When you talk about types that help you build exhaustively checked programs: Option, Either, NonEmpty, Result, etc. it's total programming you are talking about. When you talk about composing functions from other functions you are talking about functional programming.
+It stuck me, and I mentally keep these separate. When you talk about writing correct code and use types that help you build exhaustively checked programs: Option, Either, NonEmpty, Result, etc. it's total programming you are talking about. When you talk about composing functions from other functions you are talking about functional programming.
