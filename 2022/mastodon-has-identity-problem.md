@@ -20,7 +20,7 @@ When you post to new server it would send your public key, signed profile JSON a
 
 However this too has a one problem, what happens if you loose your private key? It will happen and then you'd loose whole account. This means identifier must be something that user can reset without help of the servers.
 
-## Distillied idea: URL to your profile as an account identifier
+## Distilled idea: URL to your profile as an account identifier
 
 Identifier needs to be in a place you control so that you can reset the private key. Domains are usually well guarded entities in internet, if you loose your domain you loose your brand. For this reason URL is pretty good account identifier.
 
