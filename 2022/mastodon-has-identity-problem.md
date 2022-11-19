@@ -8,7 +8,7 @@ In my opinion topical instances are a great idea. Naturally a community who know
 
 For example if you want to post political content and astronomy related content, to do that now you need _two_ accounts, one for astrodon.social and another to political instance. Unless you think your content is suitable for both.
 
-It would be easier if one could have single account for whole fediverse and be able to post to any instance. We have the tools to do that, but I don't know can Mastodon/ActivityPub be bent to that. It would require to separating the accounts from instances.
+It would be easier if one could have single account for whole fediverse and be able to post to any instance. We have the tools to do that, but I don't know can Mastodon/ActivityPub be bent to that. It would require to separate the accounts from instances.
 
 ## Naive idea: Private/public key pair as an account identifier
 
