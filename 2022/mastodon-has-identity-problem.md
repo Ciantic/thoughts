@@ -36,10 +36,19 @@ Contents of john.txt:
         "name": "John Doe",
         "picture": "https://example.com/john.jpg",
         "valid_from": "2022-11-19 12:00:00",
-        "public_key_ed25519": "MTIzNDU2Nzg5MDEyMzQ1Njc4OTAxMjM0NTY3ODkwMTI=",
-
-        // Signature of this JSON object (without the signature):
-        "eddsa_signature": "Nzg5MDEyU2Nzg5MDY3O..."
+        "devices": [
+            {
+                "device": "Desktop browser",
+                "public_key_ed25519": "MTIzNDU2Nzg5MDEyM...",
+                "eddsa_signature": "Nzg5MDEyU2Nzg5MDY3O..."
+                // Above is a signature of the user profile without devices key
+            },
+            {
+                "device": "iPhone app",
+                "public_key_ed25519": "MTIzNDU2Nzg5MDEy...",
+                "eddsa_signature": "Nzg5MDEyU2Nzg5MDY3O..."
+            }
+        ]
     },
 
     // Old profiles, which are not to be used to sign messages anymore...
@@ -47,8 +56,9 @@ Contents of john.txt:
         "name": "John Doe",
         "picture": "https://example.com/john.jpg",
         "valid_from": "2021-01-01 12:00:00",
-        "public_key_ed25519": "5MDEyMzQ1Njc4OTAxMjM0NTY3ODMTIzNDU2NzgkwMTI=",
-        "eddsa_signature": "zg5MDNzg5MDEyU2NY3O..."
+        "devices": [
+            // ...
+        ]
     }
     // ...
 ]
@@ -60,7 +70,7 @@ Client server communication would be something like this:
 -   Mastodon server reads the URL, if URL is not registered to a server, it tries to create John by reading contents of the URL
 -   All messages John posts need to be signed with valid public key stored in profile URL
 
-This idea is rather raw at the moment, but the gist of it is above. There are issues that needs to be resolved, like if you want to move your identity file to different URL, it needs redirect 302 and maybe a field.
+This idea is rather raw at the moment, but the gist of it is above. There are issues that needs to be resolved, like if you want to move your identity file to different URL, it needs redirect 302 and maybe a field. Also for multi-device support it would be nice if you could have multiple public keys per use (one private key per device).
 
 All likes, posts, images, boosts, etc. would be still stored in instance servers you act on, but individuals would be identified by URL to their profile.
 
