@@ -24,7 +24,7 @@ Identifier needs to be in a place you control so that you can reset the private 
 
 Profile URL should contains your profile: your name, profile image url and your public key. For example, John Doe has an account with identifier: `https://example.com/john.txt`
 
-In john.txt it contains something like:
+In john.txt contains the profile:
 
 ```jsonc
 // Notice: This is an array
