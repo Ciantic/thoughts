@@ -48,6 +48,7 @@ In john.txt it contains something like:
         "public_key_ed25519": "5MDEyMzQ1Njc4OTAxMjM0NTY3ODMTIzNDU2NzgkwMTI=",
         "eddsa_signature": "zg5MDNzg5MDEyU2NY3O..."
     }
+    // ...
 ]
 ```
 
