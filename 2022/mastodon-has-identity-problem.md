@@ -28,6 +28,7 @@ In john.txt it contains something like:
 
 ```jsonc
 [
+    // First object is current profile
     {
         "name": "John Doe",
         "picture": "https://example.com/john.jpg",
@@ -38,13 +39,12 @@ In john.txt it contains something like:
         "eddsa_signature": "Nzg5MDEyU2Nzg5MDY3O..."
     },
 
-    // Old profiles...
+    // Old profiles, which are not to be used to sign messages anymore...
     {
         "name": "John Doe",
         "picture": "https://example.com/john.jpg",
         "url": "https://example.com/john.txt",
         "valid_from": "2021-01-01 12:00:00",
-        "valid_to": "2022-11-19 12:00:00",
         "public_key_ed25519": "5MDEyMzQ1Njc4OTAxMjM0NTY3ODMTIzNDU2NzgkwMTI=",
         "eddsa_signature": "zg5MDNzg5MDEyU2NY3O..."
     }
