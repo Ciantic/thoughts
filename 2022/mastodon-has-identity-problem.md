@@ -54,9 +54,9 @@ In john.txt contains the profile:
 
 Client server communication would be something like this:
 
--   When John posts to a server he uses URL as identifier of himself.
--   Server reads the URL, if URL is not found from server, it tries to create the user
--   All messages John posts need to be signed with valid public key in the URL
+-   When John posts to a Mastodon server he uses URL as identifier of himself.
+-   Mastodon server reads the URL, if URL is not registered to a server, it tries to create John by reading contents of the URL
+-   All messages John posts need to be signed with valid public key stored in profile URL
 
 This idea is rather raw at the moment, but the gist of it is above. There are issues that needs to be resolved, like if you want to move your identity file to different URL, it needs redirect 302 and maybe a field.
 
