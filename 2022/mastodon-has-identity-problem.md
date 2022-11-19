@@ -60,4 +60,6 @@ Client server communication would be something like this:
 
 This idea is rather raw at the moment, but the gist of it is above. There are issues that needs to be resolved, like if you want to move your identity file to different URL, it needs redirect 302 and maybe a field.
 
-All likes, posts, boosts, followers etc. would be still stored in instance servers, but individuals would be identified by URL to their profile.
+All likes, posts, images, boosts, etc. would be still stored in instance servers you act on, but individuals would be identified by URL to their profile.
+
+This has another nice benefit: your followers would be following your identifier which is your URL. If Mastodon instance goes down, the followers would still find you, because they have stored `https://example.com/john.txt` as an identifier to follow on.
