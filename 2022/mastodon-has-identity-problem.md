@@ -22,7 +22,7 @@ However this too has a one problem, what happens if you loose your private key? 
 
 Identifier needs to be in a place you control so that you can reset the private key. Domains are usually well guarded entities in internet, if you loose your domain you loose your brand. For this reason URL is pretty good account identifier.
 
-Profile _URL_ should contain your profile file, with your name, profile image url and your public key. For example, John Doe has an account with identifier: `https://example.com/john.txt`
+Profile URL should contains your profile: your name, profile image url and your public key. For example, John Doe has an account with identifier: `https://example.com/john.txt`
 
 In john.txt it contains something like:
 
