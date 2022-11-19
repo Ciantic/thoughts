@@ -2,7 +2,7 @@
 
 I have been testing Mastodon but I find the idea that your account is tied to an instance old school centralization. This makes Mastodon much harder to use as Twitter replacement.
 
-Just browsing instances, you find a lot of which has set of rules which ban certain type of content. Uusually for good reason, but some are trying to curate the local timelines as if the whole instance is topical.
+Just browsing instances, you find a lot of with set of rules on certain type of content. Uusually for good reason, but some are trying to curate the local timelines as if the whole instance is topical.
 
 In my opinion topical instances are a great idea. Naturally a community who knows a lot about astronomy are better at moderating astronomy content, e.g. astrodon.social. However fediverse isn't suited for topical instances as one can't post from one instance to another. All posts you post are going to server your account is in, thus you are stuck with moderation guidelines of your server.
 
