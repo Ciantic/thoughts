@@ -45,8 +45,8 @@ Contents of john.txt:
             },
             {
                 "device": "iPhone app",
-                "public_key_ed25519": "MTIzNDU2Nzg5MDEy...",
-                "eddsa_signature": "Nzg5MDEyU2Nzg5MDY3O..."
+                "public_key_ed25519": "2Nzg5MMTIzNDUDEy...",
+                "eddsa_signature": "yU2Nzg5Nzg5MDEMDY3O..."
             }
         ]
     },
@@ -70,7 +70,7 @@ Client server communication would be something like this:
 -   Mastodon server reads the URL, if URL is not registered to a server, it tries to create John by reading contents of the URL
 -   All messages John posts need to be signed with valid public key stored in profile URL
 
-This idea is rather raw at the moment, but the gist of it is above. There are issues that needs to be resolved, like if you want to move your identity file to different URL, it needs redirect 302 and maybe a field. Also for multi-device support it would be nice if you could have multiple public keys per use (one private key per device).
+This idea is rather raw at the moment, but the gist of it is above. There are issues that needs to be resolved, like if you want to move your identity file to different URL, it needs redirect 302 and maybe a field.
 
 All likes, posts, images, boosts, etc. would be still stored in instance servers you act on, but individuals would be identified by URL to their profile.
 
