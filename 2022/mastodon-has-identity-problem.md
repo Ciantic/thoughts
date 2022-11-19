@@ -22,9 +22,9 @@ However this too has a one problem, what happens if you loose your private key? 
 
 Identifier needs to be in a place you control so that you can reset the private key. Domains are usually well guarded entities in internet, if you loose your domain you loose your brand. For this reason URL is pretty good account identifier.
 
-Profile URL should contains your profile: your name, profile image url and your public key. For example, John Doe has an account with identifier: `https://example.com/john.txt`
+Profile URL should contain your profile: your name, image url and your public key. For example, John Doe has an account with identifier: `https://example.com/john.txt`
 
-In john.txt contains the profile:
+Contents of john.txt:
 
 ```jsonc
 // Notice: This is an array
