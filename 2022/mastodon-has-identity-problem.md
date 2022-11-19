@@ -26,7 +26,7 @@ Profile _URL_ should contain your profile file, with your name, profile image ur
 
 In john.txt it contains something like:
 
-```json
+```jsonc
 [
     {
         "name": "John Doe",
