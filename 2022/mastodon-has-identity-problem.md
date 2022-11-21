@@ -6,11 +6,13 @@ Just browsing instances, you find a lot with rules on certain type of content. U
 
 In my opinion topical instances are a great idea. Naturally a community which knows a lot about astronomy are better at moderating astronomy related content. Moderation is much easier if it's done by coherent community, that's a reason many Subreddit's work, because they are topical.
 
-However **fediverse isn't suited for topical instances** as one can't post from one instance to another. All posts you post are going to server your account is in, thus you are stuck with moderation guidelines of your server.
+However **Mastodon isn't suited for topical instances** as one can't post from one instance to another. All posts you post are going to server your account is in, thus you are stuck with moderation guidelines of your server.
 
 For example if you want to post political content and astronomy related content, to do that now you need _two_ accounts, one for astrodon.social and another to political instance. Unless you think your content is suitable for both.
 
 It would be easier if one could have single account for whole fediverse and be able to post to any instance. We have the tools to do that, but I don't know can Mastodon/ActivityPub be bent to that. It would require to separate the accounts from instances.
+
+<!--
 
 ## Naive idea: Private/public key pair as an account identifier
 
@@ -74,4 +76,4 @@ This idea is rather raw at the moment, but the gist of it is above. There are is
 
 All likes, posts, images, boosts, etc. would be still stored in instance servers you act on, but individuals would be identified by URL to their profile.
 
-This has another nice benefit: your followers would be following your identifier which is your URL. If Mastodon instance goes down, the followers would still find you, because they have stored `https://example.com/john.txt` as an identifier to follow on.
+This has another nice benefit: your followers would be following your identifier which is your URL. If Mastodon instance goes down, the followers would still find you, because they have stored `https://example.com/john.txt` as an identifier to follow on. -->
