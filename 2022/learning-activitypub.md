@@ -14,13 +14,13 @@ HEADERS='Accept: application/ld+json; profile="https://www.w3.org/ns/activitystr
 # 2. Then query ActivityPub profile from that alias:
 curl -H "$HEADERS" "https://mastodon.social/users/Gargron" | jq
 
-# Get latest public posts from outbox
+# Get latest public posts collection
 curl -H "$HEADERS" "https://mastodon.social/users/Gargron/outbox" | jq
 
 # Get first page of public posts
 curl -H "$HEADERS" "https://mastodon.social/users/Gargron/outbox?page=1" | jq
 
-# Follower count
+# Follower collection with count
 curl -H "$HEADERS" "https://mastodon.social/users/Gargron/followers" | jq
 
 # Follower list (may fail if hidden by user)
