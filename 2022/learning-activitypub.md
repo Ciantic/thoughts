@@ -29,7 +29,7 @@ curl -H "$HEADERS" "https://mastodon.social/users/Gargron/followers?page=1" | jq
 
 ## Notes
 
-1. Get `Gargron@mastodon.social`'s webfinger. This is not part of ActivityPub, but rather an extension to Mastodon. Notice the `aliases` property, which contains the ActivityPub ID's:
+1. Get `Gargron@mastodon.social`'s webfinger. This is not part of ActivityPub, but rather an extension to Mastodon. Notice the `aliases` property, which contains the ActivityPub IDs:
     ```
     {
         "aliases": [
@@ -38,6 +38,7 @@ curl -H "$HEADERS" "https://mastodon.social/users/Gargron/followers?page=1" | jq
         ]
     }
     ```
+    Notable that aliases might include other values too, like `mailto:john@example.com`, it requires some effort to parse webfinger results.
 2. Query ActivityPub profile URL, notice in the profile property ID, which is the same as the one in the webfinger:
     ```
     {
