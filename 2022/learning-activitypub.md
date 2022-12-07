@@ -5,31 +5,16 @@ I pipe all outputs to JQ for better viewing experience
 ```bash
 #!/bin/bash
 
-# Get Gargron@mastodon.social
-# This is not part of ActivityPub, but rather an extension to Mastodon
-#
-# In ActivityPub there is no handles, each user ID is an URL, which we get from the alias in a webfinger:
+# 1. Get Gargron@mastodon.social, and from there get the ActivityPub IDs
 curl "https://mastodon.social/.well-known/webfinger?resource=acct:Gargron@mastodon.social" | jq
 
-# Notice the aliases property, which contains the ActivityPub ID's
-# "aliases": [
-#    "https://mastodon.social/@Gargron",
-#    "https://mastodon.social/users/Gargron"
-#  ],
-
-# According to spec the headers need to be following for each query to ActivityPub endpoints:
-
+# Headers for ActivityPub queries
 HEADERS='Accept: application/ld+json; profile="https://www.w3.org/ns/activitystreams"'
 
-# Then query ActivityPub profile from that alias:
+# 2. Then query ActivityPub profile from that alias:
 curl -H "$HEADERS" "https://mastodon.social/users/Gargron" | jq
 
-# In above, notice the ID property:
-# "id": "https://mastodon.social/users/Gargron",
-# That URL is the canonical ActivityPub ID for Gargron
-# That means that if you want to follow Gargron, you need to follow that URL, similarily list of followers are list of these ActivityPub ID's.
-
-# Get latest public posts
+# Get latest public posts from outbox
 curl -H "$HEADERS" "https://mastodon.social/users/Gargron/outbox" | jq
 
 # Get first page of public posts
@@ -42,4 +27,20 @@ curl -H "$HEADERS" "https://mastodon.social/users/Gargron/followers" | jq
 curl -H "$HEADERS" "https://mastodon.social/users/Gargron/followers?page=1" | jq
 ```
 
-[Read the ActivityPub spec](https://www.w3.org/TR/activitypub/)
+## Notes
+
+1. Get `Gargron@mastodon.social`'s webfinger. This is not part of ActivityPub, but rather an extension to Mastodon. Notice the `aliases` property, which contains the ActivityPub ID's:
+    ```
+    # "aliases": [
+        "https://mastodon.social/@Gargron",
+        "https://mastodon.social/users/Gargron"
+    ],
+    ```
+2. Query ActivityPub profile URL, notice in the profile property ID, which is the same as the one in the webfinger:
+    ```
+    {
+        "id" : "https://mastodon.social/users/Gargron",
+    }
+    ```
+
+-   [Read the ActivityPub spec](https://www.w3.org/TR/activitypub/)
