@@ -17,9 +17,7 @@ curl "https://mastodon.social/.well-known/webfinger?resource=acct:Gargron@mastod
 #    "https://mastodon.social/users/Gargron"
 #  ],
 
-# Next we query the ActivityPub profile from the alias:
-
-# According to spec the headers need to be following for each query:
+# According to spec the headers need to be following for each query to ActivityPub endpoints:
 
 HEADERS='Accept: application/ld+json; profile="https://www.w3.org/ns/activitystreams"'
 
