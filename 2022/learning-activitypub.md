@@ -1,4 +1,4 @@
-# Learning Mastodon's ActivityPub API with CURL and JQ
+# Learning Mastodon and ActivityPub API with CURL and JQ
 
 I pipe all outputs to JQ for better viewing experience
 
