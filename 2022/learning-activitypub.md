@@ -27,6 +27,8 @@ curl -H "$HEADERS" "https://mastodon.social/users/Gargron/followers" | jq
 curl -H "$HEADERS" "https://mastodon.social/users/Gargron/followers?page=1" | jq
 ```
 
+Notice, that you cannot send messages to other people because it requires signed HTTP signatures. To post messages to other people's inboxes, you would need your account's private key which is stored in the Mastodon instance's server.
+
 ## Notes
 
 1. Get `Gargron@mastodon.social`'s webfinger. This is not part of ActivityPub, but rather an extension of Mastodon. Notice the `links` property contains an array, one of which contains the ActivityPub ID:
