@@ -1,6 +1,6 @@
 # Learning Mastodon and ActivityPub API with CURL and JQ
 
-I pipe all outputs to JQ for better viewing experience
+I pipe all outputs to JQ for a better viewing experience
 
 ```bash
 #!/bin/bash
@@ -11,7 +11,7 @@ curl "https://mastodon.social/.well-known/webfinger?resource=acct:Gargron@mastod
 # Headers for ActivityPub queries
 HEADERS='Accept: application/ld+json; profile="https://www.w3.org/ns/activitystreams"'
 
-# 2. Then query ActivityPub profile from that alias:
+# 2. Then query ActivityPub profile from that `activity+json` link:
 curl -H "$HEADERS" "https://mastodon.social/users/Gargron" | jq
 
 # Get latest public posts collection
@@ -29,17 +29,15 @@ curl -H "$HEADERS" "https://mastodon.social/users/Gargron/followers?page=1" | jq
 
 ## Notes
 
-1. Get `Gargron@mastodon.social`'s webfinger. This is not part of ActivityPub, but rather an extension to Mastodon. Notice the `aliases` property, which contains the ActivityPub IDs:
+1. Get `Gargron@mastodon.social`'s webfinger. This is not part of ActivityPub, but rather an extension of Mastodon. Notice the `links` property contains an array, one of which contains the ActivityPub ID:
     ```
     {
-        "aliases": [
-            "https://mastodon.social/@Gargron",
-            "https://mastodon.social/users/Gargron"
-        ]
-    }
+      "rel": "self",
+      "type": "application/activity+json",
+      "href": "https://mastodon.social/users/Gargron"
+    },
     ```
-    Notable that aliases might include other values too, like `mailto:john@example.com`, it requires some effort to parse webfinger results.
-2. Query ActivityPub profile URL, notice in the profile property ID, which is the same as the one in the webfinger:
+2. Query ActivityPub profile URL, notice in the profile property ID, which is the same as the one in the Webfinger:
     ```
     {
         "id" : "https://mastodon.social/users/Gargron",
