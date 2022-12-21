@@ -7,9 +7,10 @@ This is a bit of a rant, but it's because I want Mastodon to succeed, but right 
 -   Defaulting to a dark theme is driving people away.
 -   Following people is difficult.
     -   Showing full details of all mentioned people in toot is not there.
-    -   Too much copy pasting
+    -   Too much copy-pasting.
 -   Showing old toots is difficult.
 -   Showing a full list of followers is difficult.
+-   Replies aren't threaded.
 -   Showing another server's home timeline is difficult.
 -   Settings are all over, and some of them are not found in the preferences.
 -   Featured tags are listed in the bottom right corner of the UI, undiscoverable.
