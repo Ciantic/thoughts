@@ -10,6 +10,7 @@ This is a bit of a rant, but it's because I want Mastodon to succeed, but right 
     -   Too much copy-pasting.
 -   Showing old toots is difficult.
 -   Showing a full list of followers is difficult.
+-   Compose field is cramped and small
 -   Replies aren't threaded.
 -   Showing another server's home timeline is difficult.
 -   Settings are all over, and some of them are not found in the preferences.
