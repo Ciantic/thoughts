@@ -465,7 +465,7 @@ $ sudo cat /boot/initrd.img-6.6.51+rpt-rpi-v8 | unzstd -- | cpio -idvm
 $ sudo chown -R pi:pi .
 
 # Then view the local script responsible for mounting the root file system
-$ cat /scripts/local
+$ cat ./scripts/local
 
 # ...
 local_mount_root()
