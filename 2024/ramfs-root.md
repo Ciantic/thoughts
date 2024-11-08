@@ -47,7 +47,7 @@ Now, update the initramfs:
 $ sudo update-initramfs -u
 ```
 
-That's it! 🎉
+That's it! 🎉 Now you can reboot and see if it works.
 
 ## 2. Reboot the system and hope it starts up
 
