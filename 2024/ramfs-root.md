@@ -1,6 +1,6 @@
 # Running Rasbperry OS Lite entirely from RAM
 
-Foremost your root must fit in the RAM to even attempt this. I used Raspbian OS Lite version on my Raspberry Pi 4 with 4 GB of RAM.
+Foremost your root must fit in the RAM to even attempt this. I used Rasbperry OS Lite version on my Raspberry Pi 4 with 4 GB of RAM.
 
 If you try this, have a lot of backups ready, because I locked my system many times. I'm not responsible for any damage you do to your system. It's almost guaranteed that you will lock your system if your setup differs from mine. It might be helpful to add the debug `00-shell.sh` to Initramfs first from the end of document before you attempt this. 
 
