@@ -10,7 +10,7 @@ sda      8:0    1  3.7G  0 disk
 └─sda2   8:2    1  3.2G  0 part /
 ```
 
-Bootloader stored in `/boot/firmware/` starts up Linux Kernel's main function `start_kernel` with command line parameters defined in the `/boot/firmware/cmdline.txt` and `/boot/firmware/config.txt`. Note one setting which is `auto_initramfs=1`. Raspberry Pi's Initramfs root file system is stored in CPIO-archive `/boot/initrd.img-6.6.51+rpt-rpi-v8` which is relative to normal root partition.
+Bootloader stored in `/boot/firmware/` starts up Linux Kernel's main function `start_kernel` with command line parameters defined in the `/boot/firmware/cmdline.txt` and `/boot/firmware/config.txt`. Note one setting which is `auto_initramfs=1`. Raspberry Pi's Initramfs root file system is stored in CPIO-archive `/boot/initrd.img-6.6.51+rpt-rpi-v8` which is relative to normal root partition. Kernel uses identical copy of this file positioned in the `/boot/firmware/initramfs8` which is in the bootloader partition.
 
 ## Initramfs
 
