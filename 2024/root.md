@@ -14,7 +14,7 @@ Bootloader stored in `/boot/firmware/` starts up Linux Kernel's main function `s
 
 ## Initramfs
 
-Initramfs is feature of the Linux Kernel, it creates temporary root file system (`/`) stored in RAM from given files before actual boot up of the distribution. Distributor author creates the root file system in CPIO-archive format, and Kernel extracts it to RAM. After Kernel has extracted the file system it can start executing it from `/init` in the root of the file system. 
+Initramfs is an initial root file system and feature of the Linux Kernel. Distributor author creates the root file system in CPIO-archive format, and Kernel extracts it to RAM. After Kernel has extracted the file system it can start executing it from `/init`. It is kind of like small Linux running entirely in RAM before the real Linux starts from the specified root partition.
 
 In Raspberry Pi the CPIO-archive is stored in `/boot/initrd.img-6.6.51+rpt-rpi-v8` and is additionally compressed with `zstd`. You can modify these CPIO-archives and append your own files, and run your own functionality in the Initramfs scripts. To add new scripts to be run in this environment you must have `initramfs-tools` package installed. 
 
