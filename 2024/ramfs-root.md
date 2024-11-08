@@ -8,6 +8,8 @@ If you want to understand how Initramfs and root is handled, read my previous po
 
 ## 1. Create a ramfs root inside Initramfs
 
+You have to have fully functioning Raspberry Pi OS Lite running in SD Card or USB Stick before this step. Following assumes you are running the Initramfs setup commands *inside* the Raspberry Pi OS Lite.
+
 Add the following lines to the file:
 
 ```bash
@@ -70,7 +72,7 @@ MemAvailable:    1805936 kB
 
 You need physical keyboard and monitor because Initramfs doesn't have network support. First read the [previous post](./root.md) to understand how the boot process works and see how to debug it more throughly. 
 
-However, entering shell during *Initramfs* boot is the easiest way to experiment with the Initramfs. To do this, add following Initramfs script that just drops you to shell:
+However, entering shell during Initramfs boot is the easiest way to experiment with the Initramfs. To do this, add following Initramfs script that just drops you to shell:
 
 ```sh
 sudo pico /etc/initramfs-tools/scripts/init-bottom/00-shell.sh
