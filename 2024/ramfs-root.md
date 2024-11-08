@@ -4,7 +4,7 @@ Foremost your root must fit in the RAM to even attempt this. I used Raspbian OS 
 
 If you try this, have a lot of backups ready, because I locked my system many times. I'm not responsible for any damage you do to your system. It's almost guaranteed that you will lock your system if your setup differs from mine. It might be helpful to add the debug `00-shell.sh` to Initramfs first from the end of document before you attempt this. 
 
-If you want to understand how Initramfs and root is handled, read my previous post [Journey of the Linux root file system in boot up](./root). After that this makes a lot more sense.
+If you want to understand how Initramfs and root is handled, read my previous post [Journey of the Linux root file system in boot up](./root.md). After that this makes a lot more sense.
 
 ## 1. Create a ramfs root inside Initramfs
 
@@ -68,7 +68,7 @@ MemAvailable:    1805936 kB
 
 ## If you get stuck, enter Initramfs' shell during bootup
 
-You need physical keyboard and monitor because Initramfs doesn't have network support. First read the [previous post](./root) to understand how the boot process works and see how to debug it more throughly. 
+You need physical keyboard and monitor because Initramfs doesn't have network support. First read the [previous post](./root.md) to understand how the boot process works and see how to debug it more throughly. 
 
 However, entering shell during *Initramfs* boot is the easiest way to experiment with the Initramfs. To do this, add following Initramfs script that just drops you to shell:
 
