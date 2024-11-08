@@ -10,6 +10,12 @@ If you want to understand how Initramfs and root is handled, read my previous po
 
 You have to have fully functioning Raspberry Pi OS Lite running in SD Card or USB Stick before this step. Following assumes you are running the Initramfs setup commands *inside* the Raspberry Pi OS Lite.
 
+Install initramfs-tools package:
+
+```bash
+$ sudo apt install initramfs-tools
+```
+
 Add the following lines to the file:
 
 ```bash
