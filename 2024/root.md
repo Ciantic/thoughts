@@ -16,7 +16,7 @@ Bootloader stored in `/boot/firmware/` starts up Linux Kernel's main function `s
 
 Initramfs is an initial root file system and feature of the Linux Kernel. Distributor author creates the root file system in CPIO-archive format, and Kernel extracts it to RAM. After Kernel has extracted the file system it can start executing it from `/init`. It is kind of like small Linux running entirely in RAM before the real Linux starts from the specified root partition.
 
-In Raspberry Pi the CPIO-archive is stored in `/boot/initrd.img-6.6.51+rpt-rpi-v8` and is additionally compressed with `zstd`. You can modify these CPIO-archives and append your own files, and run your own functionality in the Initramfs scripts. To add new scripts to be run in this environment you must have `initramfs-tools` package installed. 
+In Raspberry Pi the CPIO-archive is stored in `/boot/initrd.img-6.6.51+rpt-rpi-v8` and is additionally compressed with `zstd`. Kernel uses replica stored in bootloader partition `/boot/firmware/initramfs8`.  You can modify these CPIO-archives and append your own files, and run your own functionality in the Initramfs scripts. To add new scripts to be run in this environment you must have `initramfs-tools` package installed. 
 
 For debugging how all of this works, first add `debug` kernel parameter to `/boot/firmware/cmdline.txt`:
 
@@ -533,7 +533,7 @@ $ sudo mkdir -p /my-example-ram
 $ sudo update-initramfs -u 
 ```
 
-This will recreate `/boot/initrd.img-6.6.51+rpt-rpi-v8` with the new file placed in the `/scripts/init-bottom/ramfiles.sh`. If you now boot up your machine you should see the `/my-example-ram` directory in the root:
+This will recreate `/boot/initrd.img-6.6.51+rpt-rpi-v8` and another copy to `/boo/firmware/initramfs8` with the script new file placed inside the archive at `/scripts/init-bottom/ramfiles.sh`. If you now boot up your machine you should see the `/my-example-ram` directory in the root:
 
 ```bash
 $ mount
