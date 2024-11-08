@@ -73,7 +73,7 @@ You need physical keyboard and monitor because Initramfs doesn't have network su
 However, entering shell during *Initramfs* boot is the easiest way to experiment with the Initramfs. To do this, add following Initramfs script that just drops you to shell:
 
 ```sh
-sudo pico /etc/initramfs-tools/scripts/init-bottom/shell.sh
+sudo pico /etc/initramfs-tools/scripts/init-bottom/00-shell.sh
 sudo chmod +x /etc/initramfs-tools/scripts/init-bottom/00-shell.sh
 ```
 
