@@ -1,6 +1,9 @@
 # Running Raspberry Pi OS Lite entirely from RAM
 
-Foremost your root must fit in the RAM to even attempt this. I used Raspberry Pi OS Lite (22nd October) 64 bit on my Raspberry Pi 4 with 4 GB of RAM.
+> [!NOTE]  
+> I now have a slightly improved version in my [Initramfs GitHub repository](https://github.com/Ciantic/initramfs). It replaces the `mountroot()` bash function within `/scripts/local` making custom `/etc/fstab` entries work a little better.
+
+Foremost your root must fit in the RAM to even attempt this. I used Raspberry Pi OS Lite (22nd October 2024) 64 bit on my Raspberry Pi 4 with 4 GB of RAM.
 
 If you try this, have a lot of backups ready, because I locked my system many times. I'm not responsible for any damage you do to your system. It's almost guaranteed that you will lock your system if your setup differs from mine. It might be helpful to add the debug `00-shell.sh` to Initramfs first from the end of document before you attempt this. 
 
@@ -38,6 +41,7 @@ if [ -f /scripts/functions ]; then
     # Note: Adding `echo` statements aren't visible during bootup.
     # Following takes a while, for me it was ~3 minutes
     cp -a /oldroot/. /root/
+    umount /oldroot
 fi
 ```
 
