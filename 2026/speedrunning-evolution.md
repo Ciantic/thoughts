@@ -1,6 +1,6 @@
 ---
 date: 2026-09-01
-status: draft
+url: https://ciantic.iki.fi/2026/speedrunning-evolution/
 ---
 
 # Training is speedrunning evolution
