@@ -33,7 +33,7 @@ Second example is from visual cortex:
 
 What makes this example compelling is the evidence, you show people pictures and see what parts of the brain "lights up". Given that different angled lines have distinct neurons, we can conculed that indeed similar functionality must exist. It likely is also the case, that this is obvious solution for image recognition in neural networks, so both humans and LLMs discovered it independently. We developed edge detection neurons via evolution's trial and error during our path from single celled ocelloid to human eye, while LLMs discovered it by training on vast datasets.
 
-Third example is [theory of mind](https://en.wikipedia.org/wiki/Theory_of_mind). Ones ability attribute different mental states for someone else. It appears as theory of mind formed in ChatGPT 4 for the first time:
+Third example is [theory of mind](https://en.wikipedia.org/wiki/Theory_of_mind). Ones ability to attribute different mental states for someone else. It appears as theory of mind formed in ChatGPT 4 for the first time:
 
 > Michal Kosinski had given GPT-4, GPT-3.5, and earlier versions of GPT a classic theory of mind test known as the “false belief” test. It has questions like this: If there’s a bag full of popcorn that’s labeled “chocolate,” what will someone who can see the label but can’t see the contents of the bag think it contains? Kosinski found that, whereas GPT-3, released in 2020, had answered 40 percent of the false belief questions correctly, GPT-4 had racked up a 95 percent score. [page 116]
 
