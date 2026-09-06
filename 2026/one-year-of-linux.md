@@ -20,14 +20,10 @@ This wouldn't be a post without some sales speech for KDE, here are a few things
 
 2. Taskbar is very similar to Windows, but you can also put it vertically, and configure it to your liking. One of the most annoying things about Windows 11 is that they removed the ability to put it vertically. KDE can also pin taskbar buttons, Google Chrome's installed applications appear to it like you'd expect, tray is sensible, by all accounts it is very similar to Windows.
 
-3. KDE's titlebars are great, there is so much similarity with old Windows. What I want from titlebars is that they are consistent and applications don't get to shovel garbage to titlebars, they are for me to configure.
+3. KDE's titlebars are great, there is so much similarity with old Windows. What I want from titlebars is that they are consistent and applications don't get to shovel garbage to titlebars, they are for me to configure. You can also enable the old Windows feature where double-clicking the application icon in the titlebar closes the app.
 
-4. KDE Dolphin is a good file manager. You can configure it to your liking, and it will behave a lot like the one Windows used to have.
+4. KDE Dolphin is a good file manager, it matches and surpasses what Windows ever had. For instance I've set it to allow clicking and dragging only from file names (not full columns), and tried to mimic the details view in Windows Explorer.
 
-5. Window management is just better. KDE has snapping, which is very similar to Windows, you can additionally set rules, such as where each window will appear. Even though I use virtual desktops heavily, there are some windows I want to be placed precisely and it is possible without hacks.
+5. Window management is just better. KDE has snapping, which is very similar to Windows. Double-clicking on the top or bottom resize handle will vertically maximize the window, this exists in Windows too. Additionally KDE supports window rules, for instance I have set a rule to place all YouTube windows to the second monitor's right edge.
 
 6. Animations are configurable. I always wanted to configure animation speeds in Windows, and in KDE I can. With KDE animation speed and styles are configurable, although [KDE Plasma 6.6 had a regression which is not yet fixed](https://bugs.kde.org/show_bug.cgi?id=521639), but at least there is a workaround via a configuration file.
-
-7. Other small details done right in KDE:
-    - By default double-clicking on the top or bottom resize handle will vertically maximize the window.
-    - You can configure KDE to close a window by double-clicking on the icon on the left of your titlebar, this used to be a thing in Windows too, before every app started to reimagine what titlebars are.
