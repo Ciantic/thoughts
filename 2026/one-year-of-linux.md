@@ -12,7 +12,7 @@ Then I saw that Fedora was releasing Fedora 43, I thought what better way than t
 
 I desperately wanted to replace Windows so I spent weeks customizing GNOME to mostly look like Windows, but it became extremely brittle. Simple things like mouse scroll wheel, taskbar, tray, Nautilus, missing titlebars, and so on were all fighting me. I even vibe-forked Nautilus to "fix it", so badly I wanted things to work. One could do many things with extensions, but those made GNOME very brittle, in the end it was not worth it.
 
-Finally I rediscovered KDE. I had tried it a long, long time ago, when I had no reason to switch to Linux. I didn't want to reinstall my Fedora setup, after all most of my terminal setup would transfer if I could just install KDE on top of Fedora Workstation. It is not the recommended way, but you can just install KDE with dnf on top of the GNOME edition of Fedora. It installed smoothly and this is the setup I still run. Yes my setup is not ideal, it even starts still with GNOME's sddm but I only see that briefly.
+Finally I rediscovered KDE. I had tried it a long, long time ago, when I had no reason to switch to Linux. I didn't want to reinstall my Fedora setup, after all most of my terminal setup would transfer if I could just install KDE on top of Fedora Workstation. It is not the recommended way, but you can just install KDE with dnf on top of the GNOME edition of Fedora. It installed smoothly and this is the setup I still run. Yes my setup is not ideal, it even starts still with GNOME's gdm but I only see that briefly.
 
 This wouldn't be a post without some sales speech for KDE, here are a few things that are great:
 
