@@ -28,4 +28,8 @@ This wouldn't be a post without some sales speech for KDE, here are a few things
 
 6. Animations are configurable. I always wanted to configure animation speeds in Windows, and in KDE I can. With KDE animation speed and styles are configurable, although [KDE Plasma 6.6 had a regression which is not yet fixed](https://bugs.kde.org/show_bug.cgi?id=521639), but at least there is a workaround via a configuration file.
 
+Overall the switch was very smooth. I only log in to Windows to copy some files occasionally. One of the motivations was to use command line more, because I already know bash. I never liked opening command line in Windows, because I never really learned PowerShell and CMD was so archaic it was almost useless. After all, all the servers I have ever administered were Linux boxes, usually Debian.
+
+My only regret has been installing Linux on my oldest drive. Right now Windows still resides in my Samsung 990 PRO, and the Linux I now use is on a Samsung 970 PRO. It will be a hassle to move it, but I will do it eventually.
+
 [^1]: I recognize there might be other distros, that are good for switchers, but I haven't tried those, this instruction is from the ones I tried. All I can say is that vanilla GNOME is bad, and customized GNOME just slightly less bad.
