@@ -4,7 +4,7 @@ status: draft
 
 # One year of Linux
 
-I switched from Windows to Linux a year ago. If you can't be bothered to read the rest and are thinking of pulling the same stunt, trust me and install [Fedora KDE](https://fedoraproject.org/kde/). Do not try Ubuntu or GNOME-based desktops first if switching from Windows. When you are switching, it is much easier if the one you switch to is maximally familiar, you don't get that with GNOME, only KDE succeeds here. [^1]
+I switched from Windows to Linux a year ago. If you can't be bothered to read the rest and are thinking of pulling the same stunt, trust me and install [Fedora KDE](https://fedoraproject.org/kde/). Do not try Ubuntu or GNOME-based desktops first if switching from Windows. When you are switching, it is much easier if the one you switch to is maximally familiar, you don't get that with GNOME, only KDE succeeds here.[^1]
 
 First misstep I made was to try Arch Linux. I quickly found out it is too customizable, I mostly spent writing scripts how to bundle my perfect Arch Linux. I got pretty far though, I was briefly running Hyper and a very light setup. I made elaborate scripts which could build Arch Linux distro just for me, chasing that reproducible setup that sounds so cool. Reproducibility is a red herring for software engineers, because it can be so satisfying when it works. But that is not something you should tinker with as a first step when trying to switch to Linux, and you are not running Linux in the first place. Eventually I got tired of customizing all the things and booted back to Windows to do real work.
 
