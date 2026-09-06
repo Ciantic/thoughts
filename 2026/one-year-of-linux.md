@@ -1,7 +1,6 @@
 ---
-status: draft
+date: 2026-09-06
 ---
-
 # One year of Linux
 
 I switched from Windows to Linux a year ago. If you can't be bothered to read the rest and are thinking of pulling the same stunt, trust me and install [Fedora KDE](https://fedoraproject.org/kde/). Do not try Ubuntu or GNOME-based desktops first if switching from Windows. When you are switching, it is much easier if the one you switch to is maximally familiar, you don't get that with GNOME, only KDE succeeds here.[^1]
