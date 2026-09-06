@@ -4,7 +4,7 @@ status: draft
 
 # One year of Linux
 
-I switched from Windows to Linux a year ago. If you can't be bothered to read the rest and are thinking of pulling the same stunt, trust me and install [Fedora KDE](https://fedoraproject.org/kde/). Do not try Ubuntu or GNOME-based desktops first if switching from Windows. When you are switching, it is much easier if the one you switch to is maximally familiar, you don't get that with GNOME, only KDE succeeds here.
+I switched from Windows to Linux a year ago. If you can't be bothered to read the rest and are thinking of pulling the same stunt, trust me and install [Fedora KDE](https://fedoraproject.org/kde/). Do not try Ubuntu or GNOME-based desktops first if switching from Windows. When you are switching, it is much easier if the one you switch to is maximally familiar, you don't get that with GNOME, only KDE succeeds here. [^1]
 
 First misstep I made was to try Arch Linux. I quickly found out it is too customizable, I mostly spent writing scripts how to bundle my perfect Arch Linux. I got pretty far though, I was briefly running Hyper and a very light setup. I made elaborate scripts which could build Arch Linux distro just for me, chasing that reproducible setup that sounds so cool. Reproducibility is a red herring for software engineers, because it can be so satisfying when it works. But that is not something you should tinker with as a first step when trying to switch to Linux, and you are not running Linux in the first place. Eventually I got tired of customizing all the things and booted back to Windows to do real work.
 
@@ -27,3 +27,5 @@ This wouldn't be a post without some sales speech for KDE, here are a few things
 5. Window management is just better. KDE has snapping, which is very similar to Windows. Double-clicking on the top or bottom resize handle will vertically maximize the window, this exists in Windows too. Additionally KDE supports window rules, for instance I have set a rule to place all YouTube windows to the second monitor's right edge.
 
 6. Animations are configurable. I always wanted to configure animation speeds in Windows, and in KDE I can. With KDE animation speed and styles are configurable, although [KDE Plasma 6.6 had a regression which is not yet fixed](https://bugs.kde.org/show_bug.cgi?id=521639), but at least there is a workaround via a configuration file.
+
+[^1]: I recognize there might be other distros, that are good for switchers, but I haven't tried those, this instruction is from the ones I tried. All I can say is that vanilla GNOME is bad, and customized GNOME just slightly less bad.
