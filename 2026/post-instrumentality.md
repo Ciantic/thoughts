@@ -8,7 +8,7 @@ I was reading [Deep Utopia](https://nickbostrom.com/deep-utopia/) by Nick Bostro
 
 > We can call this hypothetical condition, in which we have no instrumental reasons for doing anything, the age of post-instrumentality. As we move toward this weightless condition, blasting away from the gravitational pull of the ground and its tough “sweat of the brow” imperatives on our days and our strength, we may begin to feel an alienating sense of purposelessness, an unanchored “lightness of being”. We are left to deal with the discovery that the place of maximal freedom is actually a void. [Deep Utopia, Nick Bostrom]
 
-One can argue this has often times been true for many people. If you set out to do some job or hobby, there is usually someone who does it better, they are just not available to do the task. But is there something unique when your job is replaced by machines you can't compete with? 
+One can argue this has often times been true for many people. If you set out to do some job, there is usually someone who does it better, they are just not available to do the task. But is there something unique when your job is replaced by machines you can't compete with? 
 
 Bill Gates recently presented his solution of "human reserved" jobs in his post [the turbulent AI era is here. The choices we make now are critical.
 ](https://www.gatesnotes.com/home/home-page-topic/reader/a-turbulent-ai-era-and-critical-choices-to-make). He gave an example of care giver, and went as far as suggesting some menial jobs being part of it:
