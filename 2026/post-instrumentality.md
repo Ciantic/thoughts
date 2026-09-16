@@ -39,8 +39,8 @@ Money would exist for a long time in human cultures, even though its meaning wou
 
 All of this depends how deep in the future you go, Nick Bostrom covers some very utopian views, which I don't find useful to think here. For instance one could imagine atomically precise reconstructions, which would of course mean that everybody can take any seat in the premier, because there could be inifinitely many theaters and seating arrangements.
 
-For those in anthropocentric group, they have clear solution, ban the AI. For those of us who don't adhere to that, there simply is no solution. It doesn't mean the time we spend in human form will be meaningless, or uninteresting, after all most of us aren't working in jobs which primary motivation is prestige of accomplishment. It might very well be that people who seek prestige are most hit by these questions, as they are less likely to achieve it.
-
-Nick Bostrom's book Deep Utopia is worth a read, even if it is sometimes a bit longwinded, if you are already accustomed to the topic already.
+For those in anthropocentric group, they have clear solution, ban the AI and there will be no post-instrumental world. For those of us who don't adhere to that, there simply is no solution in human form, purpose is bound to loose its meaning. It doesn't mean the time we spend in will be meaningless, or uninteresting, after all most of us aren't working in jobs which primary motivation is prestige of accomplishment. It might very well be that people who seek prestige are most hit by these questions, as they are less likely to achieve it.
 
 > The upshot is that the signaling hypothesis paints a relatively rosy picture of our prospects for being able to sustain high levels of interestingness even if we live for a very long time. One could in principle keep yachting, or listening to chamber music performances, or taking gallops around the grounds, or attending galas with finely dressed people—in perpetuity, if such were one’s fancy. [Nick Bostrom, Deep Utopia]
+
+Nick Bostrom's book Deep Utopia is worth a read, even if it is sometimes a bit longwinded, if you are already accustomed to the topic already.
