@@ -23,17 +23,19 @@ Not only is this unworkable, but it is likely unwanted in big picture. Most peop
 
 There is deeper question here, why does he worry about retaining construction jobs? If you read between the lines, he sees the act of working as meaningful thing for the worker, in other words he is unable to imagine communities of other kinds of replacing it. He doesn't seem to be proposing anything replacing jobs rather than jobs.
 
-Similarily Mark Zuckerberg in his post [The Future is for Everyone](https://about.fb.com/news/2026/08/the-future-is-for-everyone/) paints a picture where superintelligence is a mere tool, to improve ourselves and the work we do. Not only is this naive view, it makes no sense whatsoever.
+Similarily Mark Zuckerberg in his post [The Future is for Everyone](https://about.fb.com/news/2026/08/the-future-is-for-everyone/) paints a picture where superintelligence is a mere tool, to improve ourselves and the work we do. I must admit I like his enthusiasm of helping people to build great businesses and fulfilling themselves, even though it is misplaced. He seems to be also conflicted what his actual views are:
 
 > I do not understand why anyone who believes that AI will eliminate most jobs and much of humanity’s relevance would rush to build that future. [Mark Zuckerberg]
 
-Yet he continues a bit later:
+Maybe he doesn't see AI replacing all the jobs, but he keeps mentioning superintelligence, 61 times. He sees it as some great equalizer, as he continues like this:
 
 > We believe that delivering superintelligence to everyone is the way to answer this question. This follows the tradition of putting the power of supercomputers and the internet in everyone’s pockets and on our desks. Rather than centralizing superintelligence, we should distribute it widely and give every person the ability to direct it. [Mark Zuckerberg]
 
 That is like dogs conspiring to have good human hosts. Superintelligence by definition is more capable than us, it will be able to answer all questions we have, better than us. It won't have answers to all questions, but it will certainly run business better than any humanbeing. He must be thinking something far less capable than superintelligence.
 
-I've also watched some lay-people wondering what the future is for humans, in this kind of post-instrumental world. One view was we will develop "leisure economy" where people will be left to make fantastic new worlds for other people, and somehow it would still retain capitalistic concept of money. I don't see how this would happen if AI is more capable than us, because it can also create these worlds better than us.
+I guess if you are CEO, it is easy to see jobs you've made as purposeful for you and the workers, that might not be what the workers themselves think.
+
+I've also watched some people wondering what the future is for humans, in this kind of post-instrumental world. One view was we will develop "leisure economy" where people will be left to make fantastic new worlds for other people, and somehow it would still retain capitalistic concept of money. I don't see how this would happen if AI is more capable than us, because it can also create these worlds better than us.
 
 For those in anthropocentric group, they have clear solution, ban the AI. For those of us who don't adhere to that, there simply is no solution. It doesn't mean the time we spend in human form will be meaningless, or uninteresting, after all most of us aren't working in jobs which primary motivation is prestige of accomplishment. It might very well be that people who seek prestige are most hit by these questions, as they are less likely to achieve it.
 
