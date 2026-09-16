@@ -33,7 +33,11 @@ In capitalism efficiency is what businesses are after. If company can replace wo
 
 That is like dogs conspiring to have good human hosts. Superintelligence by definition is more capable than us, it will be able to answer all questions we have, better than us. It won't have answers to all questions, but it will certainly run business better than any humanbeing. What I think happened is that Zuckerberg has mixed terminolgy, and is not in-fact speaking about superintelligence but some dumb agents.
 
-I've also watched some people wondering what the future is for humans, in this kind of post-instrumental world. One view was we will develop "leisure economy" where people will be left to make fantastic new worlds for other people, and somehow it would still retain capitalistic concept of money. I don't see how this would happen if AI is more capable than us, because it can also create these worlds better than us.
+I've also seen other proposals for purpose in post-instrumental world. One view I saw we will develop "leisure economy" where people will be left to make fantastic new worlds for other people, and somehow it would still retain capitalistic concept of money for work. I don't see how this would happen if AI is more capable than us, because it can also create these worlds better than us.
+
+Money would exist for a long time in human cultures, even though its meaning would change. This is because human born to the post-instrumental world has no skills or abilities, other than their relation to other people, to attain money. In this kind of world money as a concept would end up representing 'appreciation' among people. After all somehow we must choose who can take part in theater premier.
+
+All of this depends how deep in the future you go, Nick Bostrom covers some very utopian views, which I don't find useful to think here. For instance one could imagine atomically precise reconstructions, which would of course mean that everybody can take any seat in the premier, because there could be inifinitely many theaters and seating arrangements.
 
 For those in anthropocentric group, they have clear solution, ban the AI. For those of us who don't adhere to that, there simply is no solution. It doesn't mean the time we spend in human form will be meaningless, or uninteresting, after all most of us aren't working in jobs which primary motivation is prestige of accomplishment. It might very well be that people who seek prestige are most hit by these questions, as they are less likely to achieve it.
 
