@@ -1,5 +1,5 @@
 ---
-status: draft
+date: 2026-09-16
 ---
 
 # Post-instrumentality
