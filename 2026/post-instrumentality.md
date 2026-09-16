@@ -12,7 +12,7 @@ Arguably this has been true for many people even without AI. If you set out to d
 
 Lately mathematicians has been debating what their purpose is, if machines do the proofs. Architects and 3D modelers are now questioning their place after the release of GPT-6 Astra. Of course before any of these, we had software engineers grappling with agents writing code in superhuman speeds, if not with the quality.
 
-Many solutions to purpose of oneself appear to coalesce to couple of categories. Anthropocentric old worldview, where we keep trying to cling on oldways of doing things, even by banning AI altogether. Other end of spectrum is transhumanist worldview, where we end up merging with the machines. Even if I were to adhere to more transhumanist viewpoint, I don't think it is something that can be forced upon everybody.
+Many solutions to purpose of oneself appear to coalesce to a spectrum. Anthropocentric old worldview, where we keep trying to cling on oldways of doing things, even by banning AI altogether. Other end of spectrum is transhumanist worldview, where we seek to use the tools to advance human condition, and eventually reach a post-humanity by merging with the machines. Even if I were to adhere to more transhumanist viewpoint, I don't think it is something that can be forced upon everybody.
 
 Bill Gates recently presented his solution of "human reserved" jobs in his post [the turbulent AI era is here. The choices we make now are critical.
 ](https://www.gatesnotes.com/home/home-page-topic/reader/a-turbulent-ai-era-and-critical-choices-to-make) He gave an example of care giver, and went as far as suggesting some menial jobs being part of it:
