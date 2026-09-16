@@ -35,7 +35,7 @@ That is like dogs conspiring to have good human hosts. Superintelligence by defi
 
 I've also watched some lay-people wondering what the future is for humans, in this kind of post-instrumental world. One view was we will develop "leisure economy" where people will be left to make fantastic new worlds for other people, and somehow it would still retain capitalistic concept of money. I don't see how this would happen if AI is more capable than us, because it can also create these worlds better than us.
 
-For those in anthropocentric group, they have clear solution, ban the AI. For those of us who don't adhere to that, there simply is no solution. It doesn't mean the time we spend in human form will be meaningless, or uninteresting, after all most of us aren't working in jobs which primary purpose is prestige of accomplishment. It might very well be that people who seek prestige are most hit by these questions, as they are less likely to achieve it.
+For those in anthropocentric group, they have clear solution, ban the AI. For those of us who don't adhere to that, there simply is no solution. It doesn't mean the time we spend in human form will be meaningless, or uninteresting, after all most of us aren't working in jobs which primary motivation is prestige of accomplishment. It might very well be that people who seek prestige are most hit by these questions, as they are less likely to achieve it.
 
 Nick Bostrom's book Deep Utopia is worth a read, even if it is sometimes a bit longwinded, if you are already accustomed to the topic already.
 
