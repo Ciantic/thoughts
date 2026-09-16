@@ -8,7 +8,7 @@ I was reading [Deep Utopia](https://nickbostrom.com/deep-utopia/) by Nick Bostro
 
 > We can call this hypothetical condition, in which we have no instrumental reasons for doing anything, the age of post-instrumentality. As we move toward this weightless condition, blasting away from the gravitational pull of the ground and its tough “sweat of the brow” imperatives on our days and our strength, we may begin to feel an alienating sense of purposelessness, an unanchored “lightness of being”. We are left to deal with the discovery that the place of maximal freedom is actually a void. [Deep Utopia, Nick Bostrom]
 
-Arguably this has been true for many people even without AI. If you set out to do some task, there is usually someone who does it better, they are just not available to do the task. But is there something unique when your job is replaced by machines you can't compete with?
+This kind of world doesn't come instantly, and we are starting to see hints of it already. Arguably parts of this has been true for many people even without AI. If you set out to do some task, there is usually someone who does it better, they are just not available to do the task. But is there something unique when your job is replaced by machines you can't compete with?
 
 Lately mathematicians has been debating what their purpose is, if machines do the proofs. Architects and 3D modelers are now questioning their place after the release of GPT-6 Astra. Of course before any of these, we had software engineers grappling with agents writing code in superhuman speeds, if not with the quality.
 
