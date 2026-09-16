@@ -21,14 +21,19 @@ Bill Gates recently presented his solution of "human reserved" jobs in his post 
 
 Not only is this unworkable, but it is likely unwanted in big picture. Most people would not choose to go stock shelves at 4am, or climb to a construction crane if given a choice. Yes there are few people who would keep doing it for recreational reasons, but most would not. Additionally, if autonomous robots can do these tasks better, incorporating humans to a fully automated construction process would be hindrance.
 
-There is deeper question here, why does he worry about retaining construction jobs? If you read between the lines, he sees the act of working as meaningful thing for the worker, in other words he is unable to imagine communities of other kinds of replacing it. I'm not analyzing here other ideas in his post, which some seem valid, but he doesn't seem to be proposing anything replacing jobs rather than jobs.
+There is deeper question here, why does he worry about retaining construction jobs? If you read between the lines, he sees the act of working as meaningful thing for the worker, in other words he is unable to imagine communities of other kinds of replacing it. He doesn't seem to be proposing anything replacing jobs rather than jobs.
 
-Today though, none of the jobs are fully solved, but the same questions are already raised...
+Similarily Mark Zuckerberg in his post [The Future is for Everyone](https://about.fb.com/news/2026/08/the-future-is-for-everyone/) paints a picture where superintelligence is a mere tool, to improve ourselves and the work we do. Not only is this naive view, it makes no sense whatsoever.
 
-The capabilities are jagged and todays LLMs are largely limited to take over most jobs...
+> I do not understand why anyone who believes that AI will eliminate most jobs and much of humanity’s relevance would rush to build that future. [Mark Zuckerberg]
+
+Yet he continues a bit later:
+
+> We believe that delivering superintelligence to everyone is the way to answer this question. This follows the tradition of putting the power of supercomputers and the internet in everyone’s pockets and on our desks. Rather than centralizing superintelligence, we should distribute it widely and give every person the ability to direct it.
+
+That is like dogs conspiring to have good human hosts. Superintelligence by definition is more capable than us, it will be able to answer all questions we have better than us. He must be thinking something far less capable than superintelligence.
+
 
 Nick Bostrom ...
 
 > The upshot is that the signaling hypothesis paints a relatively rosy picture of our prospects for being able to sustain high levels of interestingness even if we live for a very long time. One could in principle keep yachting, or listening to chamber music performances, or taking gallops around the grounds, or attending galas with finely dressed people—in perpetuity, if such were one’s fancy. [Nick Bostrom, Deep Utopia]
-
-... Zuck's unhinged Super Intelligence post ... quotes
