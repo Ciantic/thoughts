@@ -33,7 +33,10 @@ Yet he continues a bit later:
 
 That is like dogs conspiring to have good human hosts. Superintelligence by definition is more capable than us, it will be able to answer all questions we have, better than us. It won't have answers to all questions, but it will certainly run business better than any humanbeing. He must be thinking something far less capable than superintelligence.
 
+I've also watched some lay-people wondering what the future is for humans, in this kind of post-instrumental world. One view was we will develop "leisure economy" where people will be left to make fantastic new worlds for other people, and somehow it would still retain capitalistic concept of money. I don't see how this would happen if AI is more capable than us, because it can also create these worlds better than us.
 
-Nick Bostrom ...
+For those in anthropocentric group, they have clear solution, ban the AI. For those of us who don't adhere to that, there simply is no solution. It doesn't mean the time we spend in human form will be meaningless, or uninteresting, after all most of us aren't working in jobs which primary purpose is prestige of accomplishment. It might very well be that people who seek prestige are most hit by these questions, as they are less likely to achieve it.
+
+Nick Bostrom's book Deep Utopia is worth a read, even if it is sometimes a bit longwinded, if you are already accustomed to the topic already.
 
 > The upshot is that the signaling hypothesis paints a relatively rosy picture of our prospects for being able to sustain high levels of interestingness even if we live for a very long time. One could in principle keep yachting, or listening to chamber music performances, or taking gallops around the grounds, or attending galas with finely dressed people—in perpetuity, if such were one’s fancy. [Nick Bostrom, Deep Utopia]
