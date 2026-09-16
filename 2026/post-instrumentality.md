@@ -31,7 +31,7 @@ Yet he continues a bit later:
 
 > We believe that delivering superintelligence to everyone is the way to answer this question. This follows the tradition of putting the power of supercomputers and the internet in everyone’s pockets and on our desks. Rather than centralizing superintelligence, we should distribute it widely and give every person the ability to direct it. [Mark Zuckerberg]
 
-That is like dogs conspiring to have good human hosts. Superintelligence by definition is more capable than us, it will be able to answer all questions we have better than us. He must be thinking something far less capable than superintelligence.
+That is like dogs conspiring to have good human hosts. Superintelligence by definition is more capable than us, it will be able to answer all questions we have, better than us. It won't have answers to all questions, but it will certainly run business better than any humanbeing. He must be thinking something far less capable than superintelligence.
 
 
 Nick Bostrom ...
